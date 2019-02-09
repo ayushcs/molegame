@@ -1,0 +1,162 @@
+.img-block {
+  float: left;
+  display: block;
+  position: absolute;
+  cursor: url("Hammer_1.cur"),auto;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+.img-game {
+  width: 56px;
+  height: 194px;
+  margin-left: 15px;
+  float: left;
+}
+
+::selection {
+  background-color: transparent;
+}
+
+.game_top {
+  width: 800px;
+  height: 304px;
+  background-image: url("game_top.png");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.game_bottom {
+  width: 800px;
+  height: 94px;
+  background-image: url("game_bottom.png");
+  background-size: cover;
+}
+
+body {
+  background-color: #21252b;
+}
+
+button {
+  width: 200px;
+  position: relative;
+  height: 40px;
+  float: right;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+  margin: 5px;
+  background-color: #85b84f;
+}
+
+.score {
+  font-size: 30px;
+  margin-left: 10px;
+  font-weight: bolder;
+  color: white;
+  float: left;
+}
+
+.wrap {
+  width: 800px;
+  margin: 0px auto;
+}
+
+.gamewrap {
+  width: 794px;
+  height: 301px;
+  border: 4px solid transparent;
+}
+
+.splashwrap {
+  width: 200px;
+  height: 250px;
+  margin: 0px auto;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url('animal_1.png');
+}
+
+.splashdirt {
+  width: 200px;
+  margin: 0px auto;
+  height: 300px;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  
+}
+
+.scorewrap {
+  float: right;
+  width: 100px;
+  margin: 20px;
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+}
+
+.score {
+  padding: 5px 10px 5px 10px;
+}
+
+.message {
+  width: 300px;
+  font-size: 40px;
+  float: left;
+  color: white;
+  text-align: center;
+}
+
+.startwrap {
+  width: auto;
+  height: 50px;
+  margin: 20px;
+}
+
+.start {
+  margin: 0px auto;
+  display: block;
+}
+
+img {
+  float: left;
+  margin-left: 15px;
+}
+
+.hole {
+  display: inline-block;
+  width: 150px;
+  //border: 1px solid;
+  height: 420px;
+  position: relative;
+}
+
+.thing {
+  width: 100px;
+  height: 200px;
+  margin-left: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 3;
+  position: relative;
+  top: 300px;
+  background-position: center;
+}
+
+.wack {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  top:0px;
+  display: none;
+  z-index: 10;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('wack.gif');
+  background-position: center;
+}
